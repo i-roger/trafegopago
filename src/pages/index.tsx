@@ -5,10 +5,15 @@ export default function Home() {
   return (
     <div className="flex flex-col gap-10">
       {/* CARD INTRODUÇÃO */}
-      <div className="flex md:justify-start my-20 px-4 md:my-[150px] md:mx-40">
+      <div className="flex md:justify-start my-20 px-4 md:mt-[150px] md:mx-40">
         <div className="flex flex-col gap-4 w-[300px] md:w-[600px] p-4 border-2 rounded-xl border-[#ab3ed8]">
           <div className="flex gap-2">
-            <h1 className="text-3xl break-normal">CANSADO DE POSTAR <span className="text-3xl break-normal text-[#ab3ed8]">E NÃO TER RETORNO?</span></h1>
+            <h1 className="text-3xl break-normal">
+              CANSADO DE POSTAR{" "}
+              <span className="text-3xl break-normal text-[#ab3ed8]">
+                E NÃO TER RETORNO?
+              </span>
+            </h1>
           </div>
           <Image alt="" className="" src={aspas} />
           <p className="text-xl break-normal">
@@ -20,7 +25,9 @@ export default function Home() {
             Chegou a sua vez de atrair clientes sem esforço.
           </p>
           <p className="text-xl break-normal text-center">
-            VAMOS CRIAR UMA <span className="text-[#ab3ed8]">ESTRATÉGIA</span> QUE <span className="text-[#ab3ed8]">ATRAI</span> <span className="text-[#ab3ed8]">CLIENTES</span> SEM ESFORÇO EXTRA!
+            VAMOS CRIAR UMA <span className="text-[#ab3ed8]">ESTRATÉGIA</span>{" "}
+            QUE <span className="text-[#ab3ed8]">ATRAI</span>{" "}
+            <span className="text-[#ab3ed8]">CLIENTES</span> SEM ESFORÇO EXTRA!
           </p>
           <div className="flex justify-center">
             <button className="w-[300px] bg-[#00ffff] text-black rounded p-4 font-bold">
@@ -30,6 +37,50 @@ export default function Home() {
         </div>
       </div>
       {/* CARD INTRODUÇÃO */}
+
+      <div className="flex flex-col gap-4">
+        {/* BLOCO 1 */}
+        <div className="flex flex-col items-center gap-4 md:flex-row md:justify-evenly">
+          <div className="w-[400px] h-[240px] p-4 rounded-xl bg-[#00e5e5]">
+            <h1 className="text-3xl break-normal text-[#ab3ed8]">Gestão de mídias</h1>
+            <p className="text-xl text-black">
+              Nas redes sociais, sua marca se torna parte da vida dos clientes.
+              Com uma pesquisa de mercado sólida e estratégias bem definidas,
+              atraímos novos clientes e convertemos conexões em vendas reais.
+            </p>
+          </div>
+          <div className="w-[400px] h-[240px] p-4 rounded-xl bg-[#00ffff]">
+            <h1 className="text-3xl break-normal text-[#ab3ed8]">Gestão de mídias</h1>
+            <p className="text-xl text-black">
+              Nas redes sociais, sua marca se torna parte da vida dos clientes.
+              Com uma pesquisa de mercado sólida e estratégias bem definidas,
+              atraímos novos clientes e convertemos conexões em vendas reais.
+            </p>
+          </div>
+        </div>
+        {/* BLOCO 1 */}
+        
+        {/* BLOCO 2 */}
+        <div className="flex flex-col items-center gap-4 md:flex-row md:justify-evenly">
+        <div className="w-[400px] h-[240px] p-4 rounded-xl bg-[#7f00b2]">
+            <h1 className="text-3xl break-normal text-[#00ffff]">Gestão de mídias</h1>
+            <p className="text-xl text-white">
+              Nas redes sociais, sua marca se torna parte da vida dos clientes.
+              Com uma pesquisa de mercado sólida e estratégias bem definidas,
+              atraímos novos clientes e convertemos conexões em vendas reais.
+            </p>
+          </div>
+          <div className="w-[400px] h-[240px] p-4 rounded-xl bg-[#ab3ed8]">
+            <h1 className="text-3xl break-normal text-[#00ffff]">Gestão de mídias</h1>
+            <p className="text-xl text-white">
+              Nas redes sociais, sua marca se torna parte da vida dos clientes.
+              Com uma pesquisa de mercado sólida e estratégias bem definidas,
+              atraímos novos clientes e convertemos conexões em vendas reais.
+            </p>
+          </div>
+        </div>
+        {/* BLOCO 2 */}
+      </div>
 
       <div className="flex justify-center gap-4">
         <div className="w-40 h-40 rounded-xl bg-[#00e5e5]"></div>

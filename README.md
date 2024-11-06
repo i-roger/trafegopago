@@ -1,6 +1,8 @@
 # Landing Page #
 Projeto destinado a venda de serviços de Trafego Pago e Desenvolvimento de páginas web.
 
+VER ESTE VIDEO : https://www.youtube.com/watch?v=9RkQ0eATSvw
+
 # Default Colors #
 Background ---->
     rgb(18 18 20)

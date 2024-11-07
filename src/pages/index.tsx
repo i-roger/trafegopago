@@ -48,7 +48,7 @@ export default function Home() {
 {/* SEPARADOR */}
 
       <div className="flex justify-center">
-        <div className="w-[1071px] flex flex-col md:flex-row justify-center md:justify-evenly md:gap-20 px-4">
+        <div className="w-[1071px] flex flex-col md:flex-row justify-center md:justify-evenly gap-4 md:gap-20 px-4">
           {/* BLOCO ESQUERDO */}
           <div className="flex flex-col items-center gap-4 md:gap-14">
             <div className="p-4 rounded-xl bg-[#7f00b2]">

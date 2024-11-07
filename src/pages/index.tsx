@@ -8,7 +8,7 @@ export default function Home() {
       <div className="flex md:justify-start my-20 px-4 md:mt-[150px] md:mx-40">
         <div className="flex flex-col gap-4 w-[300px] md:w-[600px] p-4 border-2 rounded-xl border-[#ab3ed8]">
           <div className="flex gap-2">
-            <h1 className="text-3xl break-normal">
+            <h1 className="text-3xl font-bold break-normal">
               CANSADO DE POSTAR{" "}
               <span className="text-3xl break-normal text-[#ab3ed8]">
                 E NÃO TER RETORNO?
@@ -24,7 +24,7 @@ export default function Home() {
           <p className="text-xl break-normal text-center">
             Chegou a sua vez de atrair clientes sem esforço.
           </p>
-          <p className="text-xl break-normal text-center">
+          <p className="text-xl font-bold break-normal text-center">
             VAMOS CRIAR UMA <span className="text-[#ab3ed8]">ESTRATÉGIA</span>{" "}
             QUE <span className="text-[#ab3ed8]">ATRAI</span>{" "}
             <span className="text-[#ab3ed8]">CLIENTES</span> SEM ESFORÇO EXTRA!
@@ -38,48 +38,88 @@ export default function Home() {
       </div>
       {/* CARD INTRODUÇÃO */}
 
-      <div className="flex flex-col gap-4">
-        {/* BLOCO 1 */}
-        <div className="flex flex-col items-center gap-4 md:flex-row md:justify-evenly">
-          <div className="w-[400px] h-[240px] p-4 rounded-xl bg-[#00e5e5]">
-            <h1 className="text-3xl break-normal text-[#ab3ed8]">Gestão de mídias</h1>
-            <p className="text-xl text-black">
-              Nas redes sociais, sua marca se torna parte da vida dos clientes.
-              Com uma pesquisa de mercado sólida e estratégias bem definidas,
-              atraímos novos clientes e convertemos conexões em vendas reais.
-            </p>
+{/* SEPARADOR */}
+      <div className="inline-flex items-center justify-center w-full">
+        <hr className="w-[700px] h-px my-8 border-0 bg-[#7f00b2]"/>
+        <span className="absolute px-3 font-bold text-3xl text-white -translate-x-1/2 left-1/2 bg-[#121214]">
+          Serviços
+        </span>
+      </div>
+{/* SEPARADOR */}
+
+      <div className="flex justify-center">
+        <div className="w-[1071px] flex flex-col md:flex-row justify-center md:justify-evenly gap-20 px-4">
+          {/* BLOCO ESQUERDO */}
+          <div className="flex flex-col items-center gap-4 md:gap-14">
+            <div className="p-4 rounded-xl bg-[#7f00b2]">
+              <h1 className="text-3xl break-normal text-[#00ffff]">
+                Gestão de mídias
+              </h1>
+              <p className="text-xl text-white">
+                Nas redes sociais, sua marca se torna parte da vida dos
+                clientes. Com uma pesquisa de mercado sólida e estratégias bem
+                definidas, atraímos novos clientes e convertemos conexões em
+                vendas reais.
+              </p>
+            </div>
+            <div className="p-4 rounded-xl bg-[#7f00b2]">
+              <h1 className="text-3xl break-normal text-[#00ffff]">
+                Campanhas e meta ADS
+              </h1>
+              <p className="text-xl text-white">
+                Meta Ads são anúncios pagos no Facebook e Instagram que ajudam a
+                converter seguidores em clientes e impulsionar vendas.
+              </p>
+            </div>
+
+            <div className="p-4 rounded-xl bg-[#7f00b2]">
+              <h1 className="text-3xl break-normal text-[#00ffff]">
+                Google meu negócio
+              </h1>
+              <p className="text-xl text-white">
+                O Google Meu Negócio ajuda a aumentar a visibilidade da sua
+                empresa localmente, exibindo informações importantes como
+                endereço, horário e avaliações no Google.
+              </p>
+            </div>
           </div>
-          <div className="w-[400px] h-[240px] p-4 rounded-xl bg-[#00ffff]">
-            <h1 className="text-3xl break-normal text-[#ab3ed8]">Gestão de mídias</h1>
-            <p className="text-xl text-black">
-              Nas redes sociais, sua marca se torna parte da vida dos clientes.
-              Com uma pesquisa de mercado sólida e estratégias bem definidas,
-              atraímos novos clientes e convertemos conexões em vendas reais.
-            </p>
+          {/* BLOCO ESQUERDO */}
+
+          {/* BLOCO DIREITO */}
+          <div className="flex flex-col items-center gap-4 md:gap-14 md:pt-28">
+            <div className="p-4 rounded-xl bg-[#7f00b2]">
+              <h1 className="text-3xl break-normal text-[#00ffff]">
+                Consultoria de marketing
+              </h1>
+              <p className="text-xl text-white">
+                Descubra como o marketing pode transformar sua empresa! Seja o
+                CEO de uma marca que realmente vende, conquiste a confiança dos
+                seus clientes e fidelize novos públicos.
+              </p>
+            </div>
+
+            <div className="p-4 rounded-xl bg-[#7f00b2]">
+              <h1 className="text-3xl break-normal text-[#00ffff]">
+                Campanhas Google ADS
+              </h1>
+              <p className="text-xl text-white">
+                Google Ads são estratégias criadas para impulsionar vendas e
+                fortalecer sua marca na plataforma do Google.
+              </p>
+            </div>
+
+            <div className="p-4 rounded-xl bg-[#7f00b2]">
+              <h1 className="text-3xl break-normal text-[#00ffff]">
+                UX / UI Design
+              </h1>
+              <p className="text-xl text-white">
+                UI/UX Design melhora a experiência e o visual de sites e apps,
+                tornando- os mais intuitivos e agradáveis para o usuário.
+              </p>
+            </div>
           </div>
+          {/* BLOCO DIREITO*/}
         </div>
-        {/* BLOCO 1 */}
-        
-        {/* BLOCO 2 */}
-        <div className="flex flex-col items-center gap-4 md:flex-row md:justify-evenly">
-        <div className="w-[400px] h-[240px] p-4 rounded-xl bg-[#7f00b2]">
-            <h1 className="text-3xl break-normal text-[#00ffff]">Gestão de mídias</h1>
-            <p className="text-xl text-white">
-              Nas redes sociais, sua marca se torna parte da vida dos clientes.
-              Com uma pesquisa de mercado sólida e estratégias bem definidas,
-              atraímos novos clientes e convertemos conexões em vendas reais.
-            </p>
-          </div>
-          <div className="w-[400px] h-[240px] p-4 rounded-xl bg-[#ab3ed8]">
-            <h1 className="text-3xl break-normal text-[#00ffff]">Gestão de mídias</h1>
-            <p className="text-xl text-white">
-              Nas redes sociais, sua marca se torna parte da vida dos clientes.
-              Com uma pesquisa de mercado sólida e estratégias bem definidas,
-              atraímos novos clientes e convertemos conexões em vendas reais.
-            </p>
-          </div>
-        </div>
-        {/* BLOCO 2 */}
       </div>
 
       <div className="flex justify-center gap-4">

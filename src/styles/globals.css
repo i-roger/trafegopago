@@ -21,3 +21,7 @@ body {
   background: rgb(18 18 20);
   font-family: "Poppins",sans-serif;
 }
+
+.titulo {
+  @apply text-[35px] font-extrabold text-[#00e5e5] leading-[2.4rem];
+}

@@ -1,6 +1,6 @@
 # Landing Page #
 Projeto destinado a venda de serviços de Trafego Pago e Desenvolvimento de páginas web.
-
+Font: Poppins
 # Icons ?? #
 Heroicons
 
@@ -28,6 +28,9 @@ TAILWIND --->
     md:max-h-fit
     bg-cover 
     bg-no-repeat
+
+# Carousel #
+Usar Swiper em CLIENTES.tsx
 
 # Componentes da interface #
 * /src/components/_ui

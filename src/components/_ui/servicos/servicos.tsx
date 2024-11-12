@@ -4,7 +4,7 @@ export default function Servicos() {
         <div className="w-[1071px] flex flex-col md:flex-row justify-center md:justify-evenly gap-4 md:gap-20 px-4">
           {/* BLOCO ESQUERDO */}
           <div className="flex flex-col items-center gap-4 md:gap-14">
-            <div className="p-4 rounded-xl bg-[#7f00b2]">
+            <div className="p-4 rounded-xl bg-[#7f00b2] hover:scale-[150%] hover:bg-black transition-all duration-1000">
               <h1 className="text-3xl break-normal text-[#00ffff]">
                 Gestão de mídias
               </h1>
@@ -15,9 +15,10 @@ export default function Servicos() {
                 vendas reais.
               </p>
             </div>
+
             <div className="p-4 rounded-xl bg-[#7f00b2]">
               <h1 className="text-3xl break-normal text-[#00ffff]">
-                Campanhas e meta ADS
+                Campanhas meta ADS
               </h1>
               <p className="text-xl text-white">
                 Meta Ads são anúncios pagos no Facebook e Instagram que ajudam a

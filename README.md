@@ -4,6 +4,10 @@ Font: Poppins
 # Icons ?? #
 Heroicons
 
+# Animações #
+Animações personalizadas no arquivo tailwind.config.ts
+Zoom -> comando: animate-zoom-anim
+
 # Default Colors #
 Background ---->
     rgb(18 18 20)

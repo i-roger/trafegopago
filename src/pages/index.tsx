@@ -18,7 +18,7 @@ export default function Home() {
           </p>
         </div>
         <div className="flex justify-center">
-          <button className="bg-[#ab3ed8] rounded-full p-4 font-bold hover:bg-[#00e5e5] hover:text-[#005050] hover:scale-110">
+          <button className="btn animate-zoom-anim">
             Quero uma análise gratuita.
           </button>
         </div>
@@ -82,6 +82,62 @@ export default function Home() {
           </div>
         </div>
       {/* Benefícios */}
+      {/* Processo */}
+      <div className="flex flex-col gap-4 p-4">
+        <div className="flex flex-col gap-2">
+          <h1 className="titulo text-center">Como funciona?</h1>
+          <p className="text-center">Vamos começar!</p>
+        </div>
+
+        <div className="flex flex-col gap-2">
+          <h1 className="titulo2">1 Primeiro passo:</h1>
+          <p className="text-justify">O primeiro passo é você preencher nosso pré-cadastro.</p>
+          <div className="flex justify-center">
+            <button className="btn">Quero iniciar o pré-cadastro!</button>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-2">
+          <h1 className="titulo2">2 Segundo passo:</h1>
+          <p className="text-justify">O primeiro passo é você preencher nosso pré-cadastro.</p>
+          <div className="flex justify-center">
+            <button className="btn">Quero iniciar o pré-cadastro!</button>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-2">
+          <h1 className="titulo2">3 Terceiro passo:</h1>
+          <p className="text-justify">O primeiro passo é você preencher nosso pré-cadastro.</p>
+          <div className="flex justify-center">
+            <button className="btn">Quero iniciar o pré-cadastro!</button>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-2">
+          <h1 className="titulo2">4 Quarto passo:</h1>
+          <p className="text-justify">O primeiro passo é você preencher nosso pré-cadastro.</p>
+          <div className="flex justify-center">
+            <button className="btn">Quero iniciar o pré-cadastro!</button>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-2">
+          <h1 className="titulo2">5 Quinto passo:</h1>
+          <p className="text-justify">O primeiro passo é você preencher nosso pré-cadastro.</p>
+          <div className="flex justify-center">
+            <button className="btn">Quero iniciar o pré-cadastro!</button>
+          </div>
+        </div>
+
+      </div>
+      {/* Processo */}
+
+      {/* Call to action final */}
+      <div className="flex flex-col items-center p-4 gap-4">
+        <h1 className="titulo animate-zoom-anim text-center">Chegou a hora de transformar suas postagens em <span className="text-[#ab3ed8]">Resultados Reais!</span></h1>
+        <p className="text-center">Com a gestão de tráfego pago certa, você pode fazer cada investimento valer a pena.</p>
+        <button className="btn">Solicite uma Análise Gratuita</button>
+      </div>
     </div>
   );
 }

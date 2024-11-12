@@ -8,6 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        zoom: {
+          "0%": {scale:"1"},
+          "50%": {scale:"1.02"},
+          "100%": {scale:"1"}
+        },
+      },
+      animation: {
+        "zoom-anim": "zoom 3s infinite",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

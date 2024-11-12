@@ -25,3 +25,11 @@ body {
 .titulo {
   @apply text-[35px] font-extrabold text-[#00e5e5] leading-[2.4rem];
 }
+
+.titulo2 {
+  @apply text-[25px] font-extrabold text-[#00e5e5] leading-[2.4rem];
+}
+
+.btn {
+  @apply bg-[#ab3ed8] rounded-full p-4 font-bold hover:bg-[#00e5e5] hover:text-[#005050] hover:scale-110;
+}

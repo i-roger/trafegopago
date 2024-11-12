@@ -1,8 +1,3 @@
-import CardIntro from "@/components/_ui/card-intro/card-intro";
-import Separador from "@/components/_ui/separador/separador";
-import Servicos from "@/components/_ui/servicos/servicos";
-import Clientes from "@/components/_ui/clientes/clientes";
-
 export default function Home() {
   return (
     <div className="flex flex-col items-center gap-10 ">

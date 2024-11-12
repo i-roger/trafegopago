@@ -1,5 +1,3 @@
-import Image from "next/image";
-import aspas from "@/assets/images/double-quotes.svg"
 
 export default function CardIntro() {
     return (

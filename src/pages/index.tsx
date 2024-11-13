@@ -57,7 +57,7 @@ export default function Home() {
       {/* Who am i? */}
 
       {/* Portfólio */}
-      <div>
+      <div className="flex flex-col gap-4">
         <Parceiros/>
       </div>
       {/* Portfólio */}

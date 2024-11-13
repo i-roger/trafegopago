@@ -5,7 +5,7 @@ import Parceiros from "@/components/_ui/carousel/parceiros"
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center gap-10 ">
+    <div className="flex flex-col gap-10 ">
       {/* Head */}
       <div className="flex flex-col gap-10">
         <div className="flex flex-col items-center gap-10 p-4 text-center">
@@ -57,10 +57,9 @@ export default function Home() {
       {/* Who am i? */}
 
       {/* Portfólio */}
-      <div className="flex flex-col gap-4">
-        <h1 className="titulo">Nossos Clientes e Projetos</h1>
-      </div>
+      <div>
         <Parceiros/>
+      </div>
       {/* Portfólio */}
 
       {/* Benefícios */}

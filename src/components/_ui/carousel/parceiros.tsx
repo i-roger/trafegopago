@@ -12,27 +12,32 @@ import TataBoutique from '@/assets/images/clientes/tata-boutique.png';
 export default function Parceiros () {
     
   return (
-    <div className="flex w-full">
-    <Swiper
-    loop={true}
-    >
-      <SwiperSlide className=''>
-      <p className='carousel-titulo'>Empresa WD</p>
-        <Image className="carousel-img" alt="EmpresaWD"src={EmpresaWD}/>
-      </SwiperSlide>
-      <SwiperSlide className=''>
-      <p className='carousel-titulo'>Social Bar</p>
-        <Image className="carousel-img" alt="EmpresaWD" src={SocialBar}/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <p className='carousel-titulo'>Tecz Smart</p>
-        <Image className="carousel-img" alt="EmpresaWD" src={TeczSmart}/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <p className='carousel-titulo'>Tatá Boutique Social Media</p>
-        <Image className="carousel-img" alt="EmpresaWD" src={TataBoutique}/>
-      </SwiperSlide>
-    </Swiper>
+    <>
+    <div className='flex flex-col mb-[1rem]'>
+        <h1 className="titulo text-center">Nossos Clientes e Projetos</h1>
     </div>
+    <div className="flex w-full">
+        <Swiper
+        loop={true}
+        >
+        <SwiperSlide className=''>
+        <p className='carousel-titulo'>Empresa WD</p>
+            <Image className="carousel-img" alt="EmpresaWD"src={EmpresaWD}/>
+        </SwiperSlide>
+        <SwiperSlide className=''>
+        <p className='carousel-titulo'>Social Bar</p>
+            <Image className="carousel-img" alt="EmpresaWD" src={SocialBar}/>
+        </SwiperSlide>
+        <SwiperSlide>
+            <p className='carousel-titulo'>Tecz Smart</p>
+            <Image className="carousel-img" alt="EmpresaWD" src={TeczSmart}/>
+        </SwiperSlide>
+        <SwiperSlide>
+            <p className='carousel-titulo'>Tatá Boutique Social Media</p>
+            <Image className="carousel-img" alt="EmpresaWD" src={TataBoutique}/>
+        </SwiperSlide>
+        </Swiper>
+    </div>
+    </>
   );
 };

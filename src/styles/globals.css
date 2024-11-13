@@ -33,3 +33,10 @@ body {
 .btn {
   @apply bg-[#ab3ed8] rounded-full p-4 font-bold hover:bg-[#00e5e5] hover:text-[#005050] hover:scale-110;
 }
+
+.carousel-titulo {
+  @apply w-full text-[25px] bg-[#ab3ed8] text-center font-extrabold;
+}
+.carousel-img {
+  @apply object-cover w-full h-[220px] md:h-[300px] ;
+}

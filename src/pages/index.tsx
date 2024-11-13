@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Check from "@/assets/icon/check.svg"
 
+import Parceiros from "@/components/_ui/carousel/parceiros"
+
 export default function Home() {
   return (
     <div className="flex flex-col items-center gap-10 ">
@@ -55,6 +57,10 @@ export default function Home() {
       {/* Who am i? */}
 
       {/* Portfólio */}
+      <div className="flex flex-col gap-4">
+        <h1 className="titulo">Nossos Clientes e Projetos</h1>
+      </div>
+        <Parceiros/>
       {/* Portfólio */}
 
       {/* Benefícios */}

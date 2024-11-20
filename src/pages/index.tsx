@@ -3,9 +3,12 @@ import Check from "@/assets/icon/check.svg"
 
 import Parceiros from "@/components/_ui/carousel/parceiros"
 
+import Separador from "@/components/_ui/separador/separador"
+
 export default function Home() {
   return (
     <div className="flex flex-col gap-10 ">
+      <Separador/>
       {/* Head */}
       <div className="flex flex-col gap-10">
         <div className="flex flex-col items-center gap-10 p-4 text-center">
@@ -44,14 +47,16 @@ export default function Home() {
       {/* StoryTelling */}
 
       {/* Who am i? */}
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 py-10 bg-[#1c1c1f]">
       <h1 className="titulo text-center">Quem sou?</h1>
+
+      
         <div className="flex flex-col items-center gap-4 text-center">
           <div className="rounded-full w-[96px] h-[96px] bg-blue-400"></div>
           <h1><strong>Nathalia Azevedo</strong><br/>Publicitária</h1>
         </div>
         <div className="text-[14px] text-justify p-4">
-          <h2>Com 6 anos de experiência em Marketing Digital e Gestão de Tráfego, ajudo empresas a crescer nas redes e atrair clientes qualificados. Trabalhei com marcas de diferentes setores, criando campanhas estratégicas que transformam engajamento em resultados reais. Se você quer potencializar sua presença online e ver retorno imediato, conte comigo para fazer isso acontecer.</h2>
+          <h2 className="">Com 6 anos de experiência em Marketing Digital e Gestão de Tráfego, ajudo empresas a crescer nas redes e atrair clientes qualificados. Trabalhei com marcas de diferentes setores, criando campanhas estratégicas que transformam engajamento em resultados reais. Se você quer potencializar sua presença online e ver retorno imediato, conte comigo para fazer isso acontecer.</h2>
         </div>
       </div>
       {/* Who am i? */}
@@ -61,7 +66,7 @@ export default function Home() {
         <Parceiros/>
       </div>
       {/* Portfólio */}
-
+      <Separador/>
       {/* Benefícios */}
         <div className="flex flex-col gap-4">
           <h1 className="titulo text-center">O que você ganha com Gestão de Tráfego Pago?</h1>
@@ -87,58 +92,55 @@ export default function Home() {
           </div>
         </div>
       {/* Benefícios */}
+      <Separador/>
       {/* Processo */}
       <div className="flex flex-col gap-4 p-4">
         <div className="flex flex-col gap-2">
-          <h1 className="titulo text-center">Como funciona?</h1>
-          <p className="text-center">Vamos começar!</p>
+          <h1 className="titulo text-center">Como funciona o processo de criação?</h1>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h1 className="titulo2">1 Primeiro passo:</h1>
-          <p className="text-justify">O primeiro passo é você preencher nosso pré-cadastro.</p>
-          <div className="flex justify-center">
-            <button className="btn">Quero iniciar o pré-cadastro!</button>
-          </div>
+          <h1 className="titulo2">01 Pagamento:</h1>
+          <p className="text-justify">Pagamento do valor dos serviços escolhidos.
+          Pagamento do valor dos serviços escolhidos</p>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h1 className="titulo2">2 Segundo passo:</h1>
-          <p className="text-justify">O primeiro passo é você preencher nosso pré-cadastro.</p>
-          <div className="flex justify-center">
-            <button className="btn">Quero iniciar o pré-cadastro!</button>
-          </div>
+          <h1 className="titulo2">02 Pesquisa e análise:</h1>
+          <p className="text-justify">Pesquisa de mercado e análise das redes
+          sociais conforme a persona definida.</p>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h1 className="titulo2">3 Terceiro passo:</h1>
-          <p className="text-justify">O primeiro passo é você preencher nosso pré-cadastro.</p>
-          <div className="flex justify-center">
-            <button className="btn">Quero iniciar o pré-cadastro!</button>
-          </div>
+          <h1 className="titulo2">03 Criação de campanha:</h1>
+          <p className="text-justify">Todo processo criativo e operacional da campanha,
+          briefing, planejamento e desenvolvimento.</p>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h1 className="titulo2">4 Quarto passo:</h1>
-          <p className="text-justify">O primeiro passo é você preencher nosso pré-cadastro.</p>
-          <div className="flex justify-center">
-            <button className="btn">Quero iniciar o pré-cadastro!</button>
-          </div>
+          <h1 className="titulo2">04 Aprovação:</h1>
+          <p className="text-justify"> Aprovação quinzenal das artes para campanha.
+          </p>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h1 className="titulo2">5 Quinto passo:</h1>
-          <p className="text-justify">O primeiro passo é você preencher nosso pré-cadastro.</p>
-          <div className="flex justify-center">
-            <button className="btn">Quero iniciar o pré-cadastro!</button>
-          </div>
+          <h1 className="titulo2">05 Execução:</h1>
+          <p className="text-justify">Programação das postagem, interação com público,
+ análise
+ Programação das postagem, interação com público,
+ análise    e ajustes no planejamento.</p>
+        </div>
+
+        <div className="flex flex-col gap-2">
+          <h1 className="titulo2">06 Registro desempenho:</h1>
+          <p className="text-justify">Relatório mensal do desempenho final da campanha.</p>
         </div>
 
       </div>
       {/* Processo */}
 
       {/* Call to action final */}
-      <div className="flex flex-col items-center p-4 gap-4">
+      <div className="flex flex-col items-center p-4 gap-4 py-20 bg-[#1c1c1f]">
         <h1 className="titulo animate-zoom-anim text-center">Chegou a hora de transformar suas postagens em <span className="text-[#ab3ed8]">Resultados Reais!</span></h1>
         <p className="text-center">Com a gestão de tráfego pago certa, você pode fazer cada investimento valer a pena.</p>
         <button className="btn">Solicite uma Análise Gratuita</button>

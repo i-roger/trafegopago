@@ -1,40 +1,27 @@
 # Landing Page #
 Projeto destinado a venda de serviços de Trafego Pago e Desenvolvimento de páginas web.
 Font: Poppins
+
 # Icons ?? #
 Heroicons
 
 # Animações #
 Animações personalizadas no arquivo tailwind.config.ts
-Zoom -> comando: animate-zoom-anim
+Zoom -> comando: animate-zoom-anim ✅
 
 # Default Colors #
-Background ---->
-    rgb(18 18 20)
+Cor Background Principal ---->
+#121214 ✅
 
-Details ---->
-    Blue cyan dark - #00e5e5
-    Blue cyan bright - #00ffff
-    Purple dark - #7f00b2
-    Purple bright - #ab3ed8
+Cor para separar seções ---->
+#1c1c1f ✅
 
-# Aplicação de imagem Background #
-CSS --->
-    background-size: cover;
-    background-image: url(diretorio da imagem);
-    height: fit-content;
-
-TAILWIND --->
-    bg-hero ???
-    w-screen
-    h-fit
-    pb-[100px]
-    md:max-h-fit
-    bg-cover 
-    bg-no-repeat
+Detalhes ---->
+    Blue cyan dark - #00e5e5✅
+    Purple bright - #ab3ed8 ✅
 
 # Carousel #
-Usar Swiper em CLIENTES.tsx
+Usar Swiper em CLIENTES.tsx ✅
 
 # Componentes da interface #
-* /src/components/_ui
+* /src/components/_ui 

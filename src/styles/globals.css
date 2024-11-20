@@ -18,12 +18,14 @@
 
 body {
   color: #ffffff;
-  background: rgb(18 18 20);
+  /* @apply bg-gradient-to-b from-stone-800 to-fuchsia-800; */
+  background: #121214; 
   font-family: "Poppins",sans-serif;
 }
 
 .titulo {
   @apply text-[35px] font-extrabold text-[#00e5e5] leading-[2.4rem];
+  /* @apply text-[35px] font-extrabold text-[#ab3ed8] leading-[2.4rem]; */
 }
 
 .titulo2 {
@@ -39,4 +41,10 @@ body {
 }
 .carousel-img {
   @apply object-cover w-full h-[220px] md:h-[300px] ;
+}
+
+.separador {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #ab3ed8, transparent);  
 }

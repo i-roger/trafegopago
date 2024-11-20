@@ -1,5 +1,6 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
 // Import Swiper styles
 import "swiper/css";
 
@@ -10,13 +11,17 @@ import TeczSmart from "@/assets/images/clientes/tecz-smart.png";
 import TataBoutique from "@/assets/images/clientes/tata-boutique.png";
 
 export default function Parceiros() {
+
   return (
     <>
       <div className="flex flex-col mb-[1rem]">
         <h1 className="titulo text-center">Nossos Clientes e Projetos</h1>
       </div>
       <div className="flex w-full">
-        <Swiper loop={true}>
+        <Swiper
+        loop={true}
+        autoplay={{ delay:1500, disableOnInteraction: false,}} 
+        modules={[Autoplay]}>
           <SwiperSlide className="">
             <a href="https://www.canva.com/design/DAF2yHmPhZw/MGr_7U_RGgMWlLa7XI88Hw/view?utm_content=DAF2yHmPhZw&utm_campaign=designshare&utm_medium=link&utm_source=editor">
               <p className="carousel-titulo">Empresa WD</p>
